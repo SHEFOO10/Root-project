@@ -1,0 +1,128 @@
+:root
+{
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+
+    :root
+    {
+        font-size: 16px;
+    }
+    .preview-trucks
+    {
+        flex-direction: column-reverse;
+    }
+    .header .contacts::before
+    {
+        position: absolute;
+        left: 1rem;
+    }
+    #trucks img
+    {
+        width: 25rem;
+    }
+    #trucks-description
+    {
+        padding: 0;
+        text-align: center;
+    }
+    #trucks-description .btn
+    {
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .item-description .image
+    {
+        width: 8rem;
+    }
+
+    .item:nth-child(2) .item-description .image,
+    .item:nth-child(4) .item-description .image
+    {
+        width: 12rem;
+    }
+    .item-description .text
+    {
+        width: 8.5rem;
+    }
+    .flexitems .item
+    {
+        width: 15rem;
+        box-sizing: border-box;
+        padding: 10px 0 0 10px;
+        aspect-ratio: 1/ 0.8;
+        background-color: #F4F6FA;
+        border-radius: 10px;
+        position: relative;
+    }
+    .features
+    {
+        height: max-content;
+    }
+    
+    .logos .first-part {
+        width: 80%;
+    }
+
+    .maps
+    {
+        height: 32rem !important;
+    }
+    .maps .first-part,
+    .maps .second-part
+    {
+        width: 80% !important;
+        height: 15rem !important;
+    }
+    .maps .second-part img
+    {
+        transform: none !important;
+        width: 21rem;
+    }
+
+    .gallery
+    {
+        margin-top: 4rem !important;
+    }
+
+    .slider-wrapper
+    {
+        max-width: 30rem !important;
+    }
+    .gallery .div-title
+    {
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    .truckDriver-form #form
+    {
+        transform: translateX(-3.2rem);
+        width: 18rem;
+        height: 21rem;
+    }
+
+    .truckDriver-form #form .title,
+    .truckDriver-form #form .fs-18
+    {
+        padding-left: 1.6rem;
+    }
+    .truckDriver-form #form input,
+    .truckDriver-form #form .btn
+    {
+        font-size: 0.8rem;
+    }
+
+    #grid-footer
+    {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+        align-items: center;
+        text-align: center !important;
+        height: max-content !important;
+        padding: 0 !important;
+        padding-bottom: 2rem !important;
+    }
+}

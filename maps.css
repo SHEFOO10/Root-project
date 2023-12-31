@@ -1,0 +1,32 @@
+.maps
+{
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+}
+
+.maps .first-part,
+.maps .second-part
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+}
+
+.maps .first-part
+{
+    width: 55%;
+}
+
+.maps .second-part
+{
+    width: 44%;
+}
+.maps .second-part img
+{
+    transform: scale(1.19);
+}

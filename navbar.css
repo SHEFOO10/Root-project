@@ -1,0 +1,41 @@
+#navbar
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.5rem;
+    height: 2.6rem;
+}
+#navbar ul
+{
+    flex: 1;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    gap: 0.6rem;
+    list-style: none;
+}
+#navbar ul li
+{
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+.btn
+{
+    border: none;
+    width: 4rem;
+    height: 1.6rem;
+    font-size: 0.5rem;
+    background-color: #4762FF;
+    color: #FFFFFF;
+    border-radius: 0.4rem;
+}
+
+#navbar img
+{
+    width: 5.4rem;
+    height: 1.2rem;
+}

@@ -1,0 +1,57 @@
+.header
+{
+    display: grid;
+    grid-template-columns: 5% 1fr 0.1fr 1fr;
+    column-gap: 5%;
+    background-color: white;
+    border-bottom: 1px solid rgba(51, 51, 51, 10%);
+    font-size: 0.5rem;
+}
+
+.header .informations
+{
+    grid-column: 2/ 4;
+    display: flex;
+    column-gap: 10%;
+    color: rgba(51, 51, 51, 70%);
+    font-weight: bold;
+}
+
+.header .contacts
+{
+    position: relative;
+    margin: 0px auto;
+    grid-column: 4/5;
+    color: rgba(51, 51, 51, 70%);
+    font-weight: bold;
+}
+
+.header .contacts ul
+{
+    list-style-type: none;
+
+}
+.header .contacts::before,
+#first-logo::before,
+#second-logo::before
+{
+    font-family: 'Material Icons';
+    position: absolute;
+}
+.header .contacts::before
+{
+    position: absolute;
+    transform: translate(0.8rem, 0.5rem);
+    content: '\e0b0'; 
+}
+
+#first-logo::before {
+
+    transform: translate(-1rem, 0px);
+    content: '\e55e'; 
+}
+#second-logo::before
+{
+    transform: translate(-1rem, 0px);
+    content: '\e8b5'; 
+}
