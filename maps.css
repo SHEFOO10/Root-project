@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: max-content;
+    overflow: hidden;
 }
 
 .maps .first-part,

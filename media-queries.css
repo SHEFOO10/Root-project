@@ -3,7 +3,95 @@
     font-size: 28px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    :root
+    {
+        font-size: 20px;
+    }
+    .preview-trucks
+    {
+        height: max-content;
+        padding-block: 2rem;
+    }
+    #trucks img
+    {
+        width: 25rem;
+    }
+
+    .item:nth-child(2) .item-description .image,
+    .item:nth-child(4) .item-description .image
+    {
+        width: 11rem;
+    }
+    .item-description .image
+    {
+        width: 8rem;
+    }
+    .maps
+    {
+        height: 32rem !important;
+    }
+    .maps .first-part,
+    .maps .second-part
+    {
+        width: 80% !important;
+        height: 15rem !important;
+    }
+    .maps .second-part img
+    {
+        transform: none !important;
+        width: 21rem;
+    }
+    .gallery
+    {
+        margin-top: 4rem !important;
+    }
+
+    .slider-wrapper
+    {
+        max-width: 30rem !important;
+    }
+    .gallery .div-title
+    {
+        margin: 0px auto;
+        width: 80%;
+    }
+    div.truckDriver-form
+    {
+        grid-template-columns: auto;
+    }
+    .truckDriver-form #form
+    {
+        width: 22rem;
+        height: 21rem;
+        margin: 0 auto;
+        grid-column: auto;
+    }
+
+    .truckDriver-form #form .title,
+    .truckDriver-form #form .fs-18
+    {
+        padding-left: 1.6rem;
+    }
+    .truckDriver-form #form input,
+    .truckDriver-form #form .btn
+    {
+        font-size: 0.8rem;
+    }
+
+    #grid-footer
+    {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+        align-items: center;
+        text-align: center !important;
+        height: max-content !important;
+        padding: 0 !important;
+        padding-bottom: 2rem !important;
+    }
+
+}
+@media screen and (max-width: 767px) {
 
     :root
     {
