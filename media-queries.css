@@ -96,12 +96,16 @@
         margin: 0px auto;
         width: 80%;
     }
-
+    div.truckDriver-form
+    {
+        grid-template-columns: auto;
+    }
     .truckDriver-form #form
     {
-        transform: translateX(-3.2rem);
         width: 18rem;
         height: 21rem;
+        margin: 0 auto;
+        grid-column: auto;
     }
 
     .truckDriver-form #form .title,
